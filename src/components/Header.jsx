@@ -7,8 +7,9 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 function Header() {
+
   return (
-    <>
+    <> 
       <div className=" flex justify-evenly items-center bg-blue-500 text-white h-10">
         <button className="text-xs h-full hover:bg-blue-600 text-white flex-1">
           <HeartBrokenOutlinedIcon /> Help Center
@@ -38,7 +39,7 @@ function Header() {
           <button>KIDS</button>
         </div>
         <div className=" grow border flex justify-center items-center h-full">
-          <span className=" ">LOGO</span>
+          <span className="">LOGO</span>
         </div>
         <div className="w-20 border h-full flex justify-center items-center font-thin">
           <PersonOutlineOutlinedIcon />
