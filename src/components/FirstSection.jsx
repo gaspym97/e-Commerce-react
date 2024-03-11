@@ -33,7 +33,7 @@ function FirstSection() {
 
   return (
     <>
-      <div className="flex justify-evenly h-12 items-center">
+      <div className="hidden md:flex justify-evenly h-12 items-center">
         <div>element</div>
         <div>element</div>
         <div>element</div>
@@ -69,7 +69,32 @@ function FirstSection() {
         </div>
       </div>
 
-      <div className="h-96 flex items-end justify-center border-solid border border-blue-700">
+      <div className=" flex items-center absolute top-[660px] left-[22vh]">
+        <div className="grid grid-cols-4">
+          <div className="text-white pt-6 flex flex-col items-center bg-red-400 border h-[380px] w-[280px] bg-cover"
+               style={{background: "url(https://images.pexels.com/photos/974911/pexels-photo-974911.jpeg?auto=compress&cs=tinysrgb&w=800)"}}>
+            <h6>Collection</h6>
+            <h2 className="text-3xl">Fashion</h2>
+          </div>
+          <div className="text-white pt-6 flex flex-col items-center bg-red-400 border h-[380px] w-[280px]"
+              style={{background: "url(https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?cs=srgb&dl=pexels-juan-mendez-1536619.jpg&fm=jpg)"}}>
+            <h6>New Arrivals</h6>
+            <h2 className="text-3xl">Electronics</h2>
+          </div>
+          <div className="text-white pt-6 flex flex-col items-center bg-red-400 border h-[380px] w-[280px]"
+               style={{ background: "url(https://images.pexels.com/photos/4753996/pexels-photo-4753996.jpeg?auto=compress&cs=tinysrgb&w=800)"}}>
+            <h6>Up to 50% off</h6>
+            <h2 className="text-3xl">Sporting</h2>
+          </div>
+          <div className="text-white pt-6 flex flex-col items-center bg-red-400 border h-[380px] w-[280px]"
+               style={{ background: "url(https://images.pexels.com/photos/1732419/pexels-photo-1732419.jpeg?auto=compress&cs=tinysrgb&w=800)"}}>
+            <h6>Save big on</h6>
+            <h2 className="text-3xl">Outdoors</h2>
+          </div>
+        </div>
+      </div>
+
+      <div className="h-96 flex items-end justify-center pb-9">
         <h1 className="text-2xl">View All Categories</h1>
       </div>
     </>
