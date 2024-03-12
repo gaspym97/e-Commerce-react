@@ -11,7 +11,7 @@ function FirstSection() {
         <div>element</div>
       </div>
 
-      <div className="h-screen border border-solid border-red-600">
+      <div className="h-[200px] md:h-[400px] lg:h-[700px] xl:h-[900px] border border-solid border-red-600">
         <div
           className="w-full h-full bg-cover bg-no-repeat bg-center"
           style={{
